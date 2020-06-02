@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "Raspberry Pi HAT"
 Date ""
 Rev "A"
@@ -939,9 +939,9 @@ Wire Wire Line
 	11700 3850 11300 3850
 Wire Wire Line
 	11700 4250 11300 4250
-Text Label 11300 4250 2    50   ~ 0
+Text Label 10950 4250 2    50   ~ 0
 TXD(GPIO14)
-Text Label 11300 3850 2    50   ~ 0
+Text Label 10950 3850 2    50   ~ 0
 RXD(GPIO15)
 $Comp
 L Connector:Screw_Terminal_01x04 J?
@@ -1322,4 +1322,36 @@ Wire Wire Line
 	10650 6050 10450 6050
 Wire Wire Line
 	10650 6150 10450 6150
+$Comp
+L Device:R_Small R?
+U 1 1 5EC359D6
+P 11200 4250
+F 0 "R?" V 11004 4250 50  0000 C CNN
+F 1 "R" V 11095 4250 50  0000 C CNN
+F 2 "" H 11200 4250 50  0001 C CNN
+F 3 "~" H 11200 4250 50  0001 C CNN
+	1    11200 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5EC36AA5
+P 11200 3850
+F 0 "R?" V 11004 3850 50  0000 C CNN
+F 1 "R" V 11095 3850 50  0000 C CNN
+F 2 "" H 11200 3850 50  0001 C CNN
+F 3 "~" H 11200 3850 50  0001 C CNN
+	1    11200 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10950 3850 11100 3850
+Wire Wire Line
+	10950 4250 11100 4250
+$Sheet
+S 11800 7600 1650 1700
+U 5ECB5918
+F0 "USB-hub" 50
+F1 "USB-hub.sch" 50
+$EndSheet
 $EndSCHEMATC
