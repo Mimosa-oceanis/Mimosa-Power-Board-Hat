@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -76,7 +76,7 @@ AR Path="/5ED9C277/5ED8DC94" Ref="R?"  Part="1"
 AR Path="/5EF4B9E7/5ED8DC94" Ref="R22"  Part="1" 
 F 0 "R22" H 5041 2904 50  0000 R CNN
 F 1 "5k" H 5041 2995 50  0000 R CNN
-F 2 "" H 5100 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 2950 50  0001 C CNN
 F 3 "~" H 5100 2950 50  0001 C CNN
 	1    5100 2950
 	-1   0    0    1   
@@ -101,7 +101,7 @@ AR Path="/5ED9C277/5ED8F339" Ref="C?"  Part="1"
 AR Path="/5EF4B9E7/5ED8F339" Ref="C21"  Part="1" 
 F 0 "C21" H 4865 2996 50  0000 L CNN
 F 1 "C" H 4865 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4788 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4788 2800 50  0001 C CNN
 F 3 "~" H 4750 2950 50  0001 C CNN
 	1    4750 2950
 	1    0    0    -1  
@@ -132,7 +132,7 @@ AR Path="/5ED9C277/5ED9055B" Ref="C?"  Part="1"
 AR Path="/5EF4B9E7/5ED9055B" Ref="C22"  Part="1" 
 F 0 "C22" H 6865 3046 50  0000 L CNN
 F 1 "C" H 6865 2955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6788 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6788 2850 50  0001 C CNN
 F 3 "~" H 6750 3000 50  0001 C CNN
 	1    6750 3000
 	1    0    0    -1  
@@ -178,7 +178,7 @@ AR Path="/5ED9C277/5ED952F6" Ref="R?"  Part="1"
 AR Path="/5EF4B9E7/5ED952F6" Ref="R26"  Part="1" 
 F 0 "R26" H 7491 3104 50  0000 R CNN
 F 1 "R_small" H 7491 3195 50  0000 R CNN
-F 2 "" H 7550 3150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7550 3150 50  0001 C CNN
 F 3 "~" H 7550 3150 50  0001 C CNN
 	1    7550 3150
 	-1   0    0    1   
@@ -192,7 +192,7 @@ AR Path="/5ED9C277/5ED95D2E" Ref="R?"  Part="1"
 AR Path="/5EF4B9E7/5ED95D2E" Ref="R25"  Part="1" 
 F 0 "R25" H 7091 3104 50  0000 R CNN
 F 1 "R_small" H 7091 3195 50  0000 R CNN
-F 2 "" H 7150 3150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7150 3150 50  0001 C CNN
 F 3 "~" H 7150 3150 50  0001 C CNN
 	1    7150 3150
 	-1   0    0    1   
