@@ -1,4 +1,4 @@
-update=2020 June 27, Saturday 14:33:25
+update=2020 August 09, Sunday 12:09:54
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-CopperLayerCount=4
+CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -56,9 +56,9 @@ dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
 SilkLineWidth=0.15
-SilkTextSizeV=0.6
-SilkTextSizeH=0.6
-SilkTextSizeThickness=0.09
+SilkTextSizeV=1
+SilkTextSizeH=1
+SilkTextSizeThickness=0.25
 SilkTextItalic=0
 SilkTextUpright=1
 CopperLineWidth=0.15
@@ -86,11 +86,11 @@ Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
 Type=0
-Enabled=1
+Enabled=0
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
 Type=0
-Enabled=1
+Enabled=0
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -260,7 +260,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Power
 Clearance=0.15
-TrackWidth=0.3
+TrackWidth=0.25
 ViaDiameter=0.4
 ViaDrill=0.2
 uViaDiameter=0.3
