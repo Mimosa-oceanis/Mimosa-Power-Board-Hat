@@ -435,7 +435,7 @@ U 1 1 5EBB2F21
 P 14600 850
 F 0 "J4" H 14680 842 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 14680 751 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical" H 14600 850 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 14600 850 50  0001 C CNN
 F 3 "~" H 14600 850 50  0001 C CNN
 	1    14600 850 
 	1    0    0    -1  
@@ -835,7 +835,7 @@ U 1 1 5EC520E1
 P 13500 3950
 F 0 "J1" H 13580 3942 50  0000 L CNN
 F 1 "Screw_Terminal_01x04" H 13580 3851 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_4-G-5,08_1x04_P5.08mm_Vertical" H 13500 3950 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal" H 13500 3950 50  0001 C CNN
 F 3 "~" H 13500 3950 50  0001 C CNN
 	1    13500 3950
 	1    0    0    -1  
@@ -953,7 +953,7 @@ U 1 1 5ECDF0EF
 P 14150 6150
 F 0 "J2" H 14230 6142 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 14230 6051 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical" H 14150 6150 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 14150 6150 50  0001 C CNN
 F 3 "~" H 14150 6150 50  0001 C CNN
 	1    14150 6150
 	1    0    0    -1  
@@ -1247,11 +1247,8 @@ RX_NMEA183
 NoConn ~ 3200 4150
 NoConn ~ 3200 4050
 NoConn ~ 3200 3950
-NoConn ~ 3200 3450
-NoConn ~ 3200 3250
 NoConn ~ 3200 2950
 NoConn ~ 3200 2750
-NoConn ~ 2000 2550
 NoConn ~ 2000 2750
 NoConn ~ 2000 2850
 NoConn ~ 2000 2950
@@ -1421,20 +1418,16 @@ Text Label 10150 7900 2    50   ~ 0
 SPI-MISO-(GPIO9)
 Text Label 10150 8100 2    50   ~ 0
 SPI-CLK-(GPIO11)
-Text Label 4400 3350 2    50   ~ 0
+Text Label 4400 3450 2    50   ~ 0
 SPI-CS-(GPIO8)
-Wire Wire Line
-	4400 3350 3200 3350
 Text Label 10150 8000 2    50   ~ 0
 SPI-CS-(GPIO8)
 Text Label 4400 3750 2    60   ~ 0
 FAN-PWM-(GPIO12)
 Wire Wire Line
 	4400 3750 3200 3750
-Text Label 4400 3050 2    60   ~ 0
+Text Label 4400 3250 2    60   ~ 0
 FAN-RPM-(GPIO24)
-Wire Wire Line
-	3200 3050 4400 3050
 Text Label 11900 7300 2    60   ~ 0
 P3V3
 Wire Wire Line
@@ -2067,7 +2060,7 @@ U 1 1 5F5777F5
 P 1350 8700
 F 0 "J5" H 1430 8692 50  0000 L CNN
 F 1 "Screw_Terminal_01x04" H 1430 8601 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_4-G-5,08_1x04_P5.08mm_Vertical" H 1350 8700 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal" H 1350 8700 50  0001 C CNN
 F 3 "~" H 1350 8700 50  0001 C CNN
 	1    1350 8700
 	-1   0    0    -1  
@@ -2134,4 +2127,18 @@ F 3 "" H 1800 8500 50  0001 C CNN
 	1    1800 8500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3200 3250 4400 3250
+NoConn ~ 3200 3050
+Wire Wire Line
+	3200 3450 4400 3450
+NoConn ~ 3200 3350
+Wire Wire Line
+	2000 2550 800  2550
+Text Label 800  2550 0    50   ~ 0
+Power-Button-(GPIO4)
+Wire Wire Line
+	1550 8800 1800 8800
+Text Label 1800 8800 0    50   ~ 0
+Power-Button-(GPIO4)
 $EndSCHEMATC

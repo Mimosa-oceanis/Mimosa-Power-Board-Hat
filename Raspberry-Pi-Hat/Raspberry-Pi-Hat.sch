@@ -198,7 +198,7 @@ U 1 1 58E1713F
 P 2100 5850
 F 0 "U2" H 2450 6200 50  0000 C CNN
 F 1 "CAT24C32" H 1850 6200 50  0000 C CNN
-F 2 "Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm" H 2100 5850 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2100 5850 50  0001 C CNN
 F 3 "" H 2100 5850 50  0000 C CNN
 	1    2100 5850
 	1    0    0    -1  
@@ -435,7 +435,7 @@ U 1 1 5EBB2F21
 P 14600 850
 F 0 "J4" H 14680 842 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 14680 751 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical" H 14600 850 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 14600 850 50  0001 C CNN
 F 3 "~" H 14600 850 50  0001 C CNN
 	1    14600 850 
 	1    0    0    -1  
@@ -835,7 +835,7 @@ U 1 1 5EC520E1
 P 13500 3950
 F 0 "J1" H 13580 3942 50  0000 L CNN
 F 1 "Screw_Terminal_01x04" H 13580 3851 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_4-G-5,08_1x04_P5.08mm_Vertical" H 13500 3950 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal" H 13500 3950 50  0001 C CNN
 F 3 "~" H 13500 3950 50  0001 C CNN
 	1    13500 3950
 	1    0    0    -1  
@@ -953,7 +953,7 @@ U 1 1 5ECDF0EF
 P 14150 6150
 F 0 "J2" H 14230 6142 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 14230 6051 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical" H 14150 6150 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 14150 6150 50  0001 C CNN
 F 3 "~" H 14150 6150 50  0001 C CNN
 	1    14150 6150
 	1    0    0    -1  
@@ -2060,7 +2060,7 @@ U 1 1 5F5777F5
 P 1350 8700
 F 0 "J5" H 1430 8692 50  0000 L CNN
 F 1 "Screw_Terminal_01x04" H 1430 8601 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_4-G-5,08_1x04_P5.08mm_Vertical" H 1350 8700 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal" H 1350 8700 50  0001 C CNN
 F 3 "~" H 1350 8700 50  0001 C CNN
 	1    1350 8700
 	-1   0    0    -1  
