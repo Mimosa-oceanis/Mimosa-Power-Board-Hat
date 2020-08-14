@@ -1,0 +1,57 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Technologie,Fab,ESR,Ref
+1,Single-cell battery,Battery_Cell,BT1,Battery_Cell,BatteryHolder_Keystone_2998_1x6.8mm,1,~,,,,
+2,Unpolarized capacitor,C,C23 C24,30pF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,,,,
+3,Unpolarized capacitor,C,C19,47pF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,,,,
+4,Unpolarized capacitor,C,C6 C9 C17 C18,47nF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,4,~,X7R ceramic X5R ceramic,,,
+5,Unpolarized capacitor,C,C7 C8 C20 C25 C26 C27,100nF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,6,~,,,,
+6,Unpolarized capacitor,C,C10,470nF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,,,,
+7,Unpolarized capacitor,C,C2 C3 C4,10uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,3,~,X7R ceramic,,,
+8,Unpolarized capacitor,C,C16,47uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,X5R ceramic,,,
+9,Polarized capacitor,CP,C1,150uF,C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,1,~,,,,
+10,Unpolarized capacitor,C,C14 C15,330uF,CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder,2,~,Tantalum polymer,Kemet,15mR,T520D337M006ATE015
+11,Unpolarized capacitor,C,C5 C11 C12 C13,C,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,4,~,,,,
+12,Unpolarized capacitor,C,C21 C22,nc,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,,,,
+13,"Bidirectional dual transient-voltage-suppression diode, center on pin 3",D_TVS_x2_AAC,D1,D_TVS_x2_AAC,SOT-23,1,~,,Nexperia,,PESD2ETH100-TR
+14,,OX40HAT,J3,40HAT,PinSocket_2x20_P2.54mm_Vertical,1,,,,,
+15,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J9,CONN_01X02,PinHeader_1x02_P2.54mm_Vertical,1,,,,,
+16,"Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x02,J2 J4,Screw_Terminal_01x02,TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal,2,~,,,,
+17,"Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x04,J1 J5,Screw_Terminal_01x04,TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal,2,~,,,,
+18,"Fan, tacho output, PWM input, 4-pin connector",Fan_Tacho_PWM,M1,Fan_Tacho_PWM,FanPinHeader_1x04_P2.54mm_Vertical,1,http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf,,,,
+19,Transistor P-MOSFET,DMG2305UX,Q1,DMG2305UX,SOT-23,1,,,,,
+20,PNP Matched Transistor Pair,DMMT5401,Q2,DMMT5401,SOT-23-6,1,,,,,
+21,"Resistor, small symbol",R_Small,R12 R13,60R,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,,,,
+22,"Resistor, small symbol",R_Small,R20,1k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,,,,
+23,Resistor,R,R15,1.5k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,,,,
+24,Resistor,R,R6 R8,3.9K,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,,,,,
+25,Resistor,R,R14,8k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,,,,
+26,"Resistor, small symbol",R_Small,R16 R17 R18 R19 R23 R29,10k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,6,~,,,,
+27,Resistor,R,R24,47K,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,,,,
+28,"Resistor, small symbol",R_Small,R9,NC,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,,,,
+29,"Resistor, small symbol",R_Small,R1 R2 R3 R4,R,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,4,~,,,,
+30,"Resistor, small symbol",R_Small,R5 R10,R_Small,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,,,,
+31,"Resistor, small symbol",R_Small,R7,TBD,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,,,,
+32,"Real-Time Clock, I2C Interface, 3 GPO, QFN-16",AB0805,U5,AB0805,VQFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm,1,https://abracon.com/Precisiontiming/AB08X5-RTC.PDF,,,,
+33,"RS-485, RS-422 full duplex 12 Mbps transceiver, SOIC-8",ADM3490ExR,U1,ADM3490ExR,SOIC-8_3.9x4.9mm_P1.27mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3483E_3486E_3488E_3490E_3491E.pdf,,,,
+34,I2C Serial EEPROM 32Kb,CAT24C32,U2,CAT24C32,SOIC-8_3.9x4.9mm_P1.27mm,1,,,,,
+35,"8A Adjustable Step-Down DC/DC Power Module in 15x15mm, Texas NDY0011A",LMZ13608,U4,LMZ13608,Texas_NDY0011A,1,http://www.ti.com/lit/ds/snvs710i/snvs710i.pdf,,,,
+36,"Stand-Alone CAN Controller with SPI Interface, SOIC-18",MCP2515-xSO,U6,MCP2515-xSO,SOIC-18W_7.5x11.6mm_P1.27mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf,,,,
+37,"High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8",TCAN330,U3,TCAN330,TSOT-23-8_HandSoldering,1,http://www.ti.com/lit/ds/symlink/tcan337.pdf,,,,
+38,2-Bit Bidirectional Voltage-Level Translator in VSSOP Package With Auto Direction Sensing and ±15-kV ESD Protection,TXB0102DCU,U7,TXB0102DCU,VSSOP-8_2.4x2.1mm_P0.5mm,1,http://www.ti.com/lit/ds/symlink/txb0102.pdf,,,,
+39,Two pin crystal,Crystal,Y1,32.768 kHz,Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal,1,~,,,,
+40,Two pin crystal,Crystal,Y2,8MHz,Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm_HandSoldering,1,~,,,,
+
+
+
+
+
+Component Groups:,41
+Component Count:,70
+Fitted Components:,69
+Number of PCBs:,1
+Total components:,69
+Schematic Version:,A
+Schematic Date:,
+PCB Variant:,[u'default']
+BoM Date:,"2020 August 11, Tuesday 16:20:13"
+Schematic Source:,Raspberry-Pi-Hat.sch
+KiCad Version:,Eeschema (5.1.5-0-10_14)
