@@ -1,4 +1,4 @@
-18411236179317356
+18409647402316390
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -74795,6 +74795,13 @@ sensor pressure ssop 98ARH99089A
 8
 8
 Sensor_Pressure
+Freescale_1351_01
+
+
+0
+0
+0
+Sensor_Pressure
 Honeywell_40PCxxxG1A
 https://www.honeywellscportal.com/index.php?ci_id=138832
 pressure sensor automotive honeywell
@@ -81080,17 +81087,3 @@ varistor SIOV
 0
 2
 2
-project_footprints
-Mimosa-Logo
-
-
-0
-0
-0
-project_footprints
-NPTH_3mm_ID
-
-
-0
-0
-0
