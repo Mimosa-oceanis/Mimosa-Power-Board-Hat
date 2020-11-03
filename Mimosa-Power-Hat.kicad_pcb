@@ -3619,7 +3619,7 @@
     )
   )
 
-  (module Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm (layer F.Cu) (tedit 5F32CB81) (tstamp 5F2F2334)
+  (module Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm (layer F.Cu) (tedit 5F3C3930) (tstamp 5F2F2334)
     (at 95.631 79.4385 180)
     (descr "VQFN, 16 Pin (https://www.st.com/resource/en/datasheet/stspin220.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
     (tags "VQFN NoLead")
@@ -3685,7 +3685,7 @@
     (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/VQFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.39 0.39 0.39))
-      (rotate (xyz -90 0 90))
+      (rotate (xyz 0 0 90))
     )
   )
 

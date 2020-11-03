@@ -4,10 +4,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Raspberry Pi HAT"
-Date ""
-Rev "A"
-Comp ""
+Title "Mimosa-Power-Hat"
+Date "2020-08-15"
+Rev "V0"
+Comp "Mimosa"
 Comment1 ""
 Comment2 ""
 Comment3 ""
