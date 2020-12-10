@@ -1819,7 +1819,7 @@ L Device:R_Small R7
 U 1 1 5F435825
 P 5250 7900
 F 0 "R7" H 5191 7854 50  0000 R CNN
-F 1 "TBD" H 5191 7945 50  0000 R CNN
+F 1 "1.5k" H 5191 7945 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5250 7900 50  0001 C CNN
 F 3 "~" H 5250 7900 50  0001 C CNN
 	1    5250 7900
@@ -2179,4 +2179,6 @@ F 3 "~" H 14250 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 14250 950 
+Text Notes 4600 7750 0    50   ~ 0
+Total battery series\nimpedance = 1.5k
 $EndSCHEMATC

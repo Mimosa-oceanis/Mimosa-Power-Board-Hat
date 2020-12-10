@@ -693,7 +693,7 @@ F 4 "X7R ceramic" H 10150 1750 50  0001 C CNN "Technologie"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C1
+L Mimosa-Power-Hat-rescue:CP-Device C1
 U 1 1 5EC20D90
 P 9700 1750
 F 0 "C1" H 9818 1796 50  0000 L CNN
@@ -981,7 +981,7 @@ F 3 "~" H 13950 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_TVS_x2_AAC D1
+L Mimosa-Power-Hat-rescue:D_TVS_x2_AAC-Device D1
 U 1 1 5ECE214A
 P 14500 6150
 F 0 "D1" H 14300 6050 50  0000 L CNN
